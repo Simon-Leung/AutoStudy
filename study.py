@@ -1,15 +1,19 @@
-﻿# =============================================================================
-#  This file is part of AutoStudy.
-#
-#  Permissions of this weak copyleft license are conditioned on making available
-#  source code of licensed files and modifications of those files under the same
-#  license (or in certain cases, one of the GNU licenses). Copyright and license 
-#  notices must be preserved. Contributors provide an express grant of patent 
-#  rights. However, a larger work using the licensed work may be distributed 
-#  under different terms and without source code for files added in the larger 
-#  work.
-# =============================================================================
-# coding:utf-8
+﻿# coding:utf-8
+"""
+This file is part of AutoStudy.
+
+Permissions of this weak copyleft license are conditioned on making available
+source code of licensed files and modifications of those files under the same
+license (or in certain cases, one of the GNU licenses). Copyright and license 
+notices must be preserved. Contributors provide an express grant of patent 
+rights. However, a larger work using the licensed work may be distributed 
+under different terms and without source code for files added in the larger 
+work.
+
+Created on Fri Jun 29 15:52:49 2018
+
+@author: Simon Leung
+"""
 import time
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
